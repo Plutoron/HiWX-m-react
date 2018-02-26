@@ -1,0 +1,216 @@
+@import '../../../static/less/util.less';
+
+.couponDiv{
+    .padding-top(100);
+    .padding-bottom(100);
+
+    .codeTo{
+        width:100%;
+        .height(130);
+        .flex(row,center,space-around);
+        box-sizing:border-box;
+        .padding(20);
+        background:#f4f4f4;
+
+        input{
+            flex:1;
+            .font-size(26);
+            background:#fff;
+            height:100%;
+            .padding(0,30);
+            border: none;
+        }
+
+        span{
+            .width(200);
+            height:100%;
+            background:#ff5000;
+            .flex();
+            color:#fff;
+            .font-size(26);
+        }
+    }
+
+    .couponList{
+        .padding-left(20);
+        .padding-right(20);
+
+        .couponItem{
+            .margin-bottom(20);
+            position: relative;
+
+            &.on{
+              box-shadow:0px 10px 20px #6699CC;
+
+              .selectBtn{
+                display: block;
+              }
+            }
+
+            &.discount{
+                .itemTop{
+                    color: #009966;
+
+                    .leftTop{
+                        color: #009966;
+                    }
+                }
+
+                .itemDown{
+                    background: linear-gradient(to left,#009966, #006666);
+                }
+            }
+
+            &.invalid{
+                .itemTop{
+                    color: #ddd;
+
+                    .leftPart{
+                        .leftTop,
+                        .leftDown{
+                            color: #ddd;
+                        }
+                    }
+
+                    .rightPart{
+                        .range{
+                            color: #ddd;
+                        }
+                    }
+                }
+
+                .itemDown{
+                    background: linear-gradient(to left,#ddd, #e8e8e8);
+                }
+            }
+
+            &.hasUse{
+                .used{
+                    display: block;
+                }
+            }
+
+            .itemTop{
+                background: #fff;
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+                .flex(row,center,space-around);
+                .padding(30,0);
+                color: #ff5000;
+
+                .leftPart{
+                    .flex(column);
+                    .font-size(60);
+
+                    .leftTop{
+                        .num{
+                            .font-size(90);
+                        }
+
+                        .zhe,
+                        .rmb{
+                            .font-size(30);
+                        }
+                    }
+
+                    .leftDown{
+                        .padding-top(10);
+                        color: #333;
+                        .font-size(26);
+                    }
+                }
+
+                .rightPart{
+                    .flex(column,flex-start,space-around);
+                    border-left:1px dotted #e8e8e8;
+                    .width(440);
+                    box-sizing: border-box;
+                    .padding-left(30);
+
+                    .code{
+                        .font-size(40);
+                        .margin-bottom(10);
+                    }
+
+                    .range{
+                        .font-size(28);
+                        color: #333;
+                        .flex(row,center,flex-start);
+
+                        &:before{
+                            content: '\e600';
+                            font-family: 'iconfont';
+                            .font-size(15);
+                            .padding-right(20);
+                            transform: scale(0.7);
+                        }
+                    }
+                }
+            }
+
+            .itemDown{
+              background: linear-gradient(to left,#ff5000, #fa5d4c);
+              border-top-right-radius: 8px;
+              border-top-left-radius: 8px;
+              color: #fff;
+              .font-size(26);
+              .padding(25);
+            }
+
+            .selectBtn{
+                display: none;
+                .height(45);
+                .width(45);
+                position: absolute;
+                top: 50%;
+                .right(30);
+                transform: translateY(-50%);
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .used{
+                display: none;
+                color: #ddd;
+                .font-size(30);
+                position: absolute;
+                top: 50%;
+                .right(30);
+                transform: translateY(-50%);
+                .height(60);
+                .width(140);
+                border-radius:8px;
+                border:1px solid #ddd;
+                .line-height(60);
+                text-align:center;
+            }
+        }
+    }
+
+    .confirmBtn{
+        .fixed-bottom();
+        .height(100);
+        .padding(10,30);
+        box-sizing: border-box;
+        background: #f4f4f4;
+
+        span{
+            background: #ff5000;
+            height: 100%;
+            .flex();
+            color: #fff;
+            border-radius: 5px;
+            .font-size(32);
+        }
+    }
+
+    .nullTicket{
+        .margin-top(150);
+        .font-size(50);
+        text-align: center;
+        color: #ff5000;
+    }
+}

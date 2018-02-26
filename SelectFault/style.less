@@ -1,0 +1,39 @@
+@import '../../../static/less/util.less';
+
+.selectFaultDiv{
+    .padding-top(100);
+    
+    .selectFaultItem{
+        .margin(20);
+        .border-1px(#ffe6db);
+        border-radius: 10px;
+        background: #fff;
+        .flex();
+        .padding(30,0);
+
+        img{
+            .width(90);
+            .height(90);
+            .margin(0,30);
+        }
+
+        div{
+            flex: 1;
+            .flex(column,flex-start);
+            box-sizing: border-box;
+            .padding(0,20);
+
+            .title{
+                .font-size(30);
+                font-weight: bold;
+                color: #333;
+            }
+
+            .surTitle{
+                .font-size(24);
+                color: #999;
+                .margin-top(10);
+            }
+        }
+    }
+}

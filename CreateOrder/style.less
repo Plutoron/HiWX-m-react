@@ -1,0 +1,202 @@
+@import '../../../static/less/util.less';
+
+.createOrderDiv{
+    .padding-top(100);
+    .padding-bottom(100);
+    
+    .addressBlock{
+        background: #fff;
+        position: relative;
+        .flex();
+        text-align: center;
+        background: url(https://pic.hiweixiu.com/hiweixiu-app/weapp/img/ljxdbg.png) left bottom no-repeat #fff;
+        background-size: 100% 3px;
+        .margin-bottom(20);
+
+        &:after{
+            font-family: 'iconfont';
+            content:"\e6e4";
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            transform: translate(-50%,-50%);
+            .font-size(32);
+            color: #999;
+        }
+
+        .unadd{
+            .flex();
+            .font-size(36);
+             .padding(50,30);
+            width: 100%;
+
+            &:before{
+                font-family: 'iconfont';
+                content:"\e8a1";
+                transform: translateY(-1px);
+                margin-right: 5px;
+            }
+        }
+
+        .added{
+            text-align: left;
+            .padding(40,30);
+            .padding-right(80);
+            width: 100%;
+
+            .name{
+                .font-size(32); 
+                font-weight:bold; 
+            }
+
+            .addrInfo{
+                .font-size(30);
+                .margin-top(5); 
+            }
+        }
+    }
+
+    .OrderUserInfoBlock{
+        background: #fff;
+        .padding(0,30);
+        .margin-bottom(20);
+        .font-size(30);
+
+        input,
+        img{
+            border: none;
+            height: 100%;
+            width: 100%;
+        }
+        textarea{
+            .height(150);
+            width: 100%;
+            border: none;
+            .padding(30,0);
+            resize: unset;
+        }
+
+        .perLine{
+            .min-height(110);
+            box-sizing: border-box;
+            .flex();
+
+            &:not(:last-child){
+                .border-1px-bottom(#e8e8e8);
+            }
+
+            .leftItem{
+                height: 100%;
+                flex:1;
+                .margin-right(20);
+            }
+
+            .rightItem{
+               .width(200);
+               height: 100%;
+               .flex(); 
+               text-align: center;
+               color: #ff5000;
+            }
+
+            .leftTitle{
+                .width(200);
+            }
+
+            .rightSelect{
+                flex: 1;
+                text-align: right;
+
+                .selectSpan{
+                    color: #999;
+
+                    &:after{
+                        font-family: 'iconfont';
+                        content:"\e6e4";
+                        transform: translateY(-2px);
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .RepairDeviceInfoBlock{
+        .padding(0,30);
+        background:#fff;
+        .margin-bottom(20);
+        .font-size(30); 
+
+        .title{
+            .height(100);
+            .line-height(100); 
+            .font-size(32);
+        }
+
+        .repireContent{
+            .border-1px-top(#e8e8e8);
+            .border-1px-bottom(#e8e8e8);
+            .padding-top(30);
+
+            .perLine{
+                .flex(row,flex-start);
+                .padding-bottom(30);
+                
+                .leftTitle{
+                    flex:1;
+                    word-break: break-all;
+                    color: #333;
+                }
+
+                .rightMoney{
+                    .width(150);
+                    text-align: right;
+                    color: #ff5000;
+                }
+            }
+        }
+
+        .foot{
+            color: #666;
+            .height(100);
+            .flex(row,center,flex-end);
+        }
+    }
+
+    .createOrderFixedBottom{
+        .fixed-bottom();
+        .height(100);
+        background: #f8f8f8;
+        .padding-left(30);
+        .flex();
+
+        .leftContent{
+            flex:1;  
+            
+            .topMoney{
+                .font-size(32);
+
+                span{
+                    color: #ff5000;
+                }
+            }
+
+            a{
+                color: #009cff;
+            }
+        }
+
+        .rightBtn{
+            .width(240);
+            height: 100%;
+            .font-size(30);
+            background: #ff5000;
+
+            a{
+                .flex();
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

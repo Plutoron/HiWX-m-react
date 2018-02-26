@@ -1,0 +1,141 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "name": "上海静安区站",
+            "address": "上海市静安区梅园路228号企业广场609室",
+            "lng_lat": "121.45720,31.24379",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/shanghai.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "上海浦东新区站",
+            "address": "上海市浦东新区东方路899号浦东假日酒店1006室",
+            "lng_lat": "121.45720,31.24379",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/shanghai.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "北京朝阳区站",
+            "address": "北京市朝阳区农展馆南路13号瑞辰国际中心1011室",
+            "lng_lat": "116.466553,39.934441",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/beijing.png?v=11",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "北京海淀区站",
+            "address": "北京市海淀区复兴路17号国海广场D座（4号楼）1517室",
+            "lng_lat": "116.3134310000,39.9090440000",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/beijing.png?v=11",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "深圳站",
+            "address": "深圳市福田区华强北路1019号华强广场A座8C室",
+            "lng_lat": "114.086082,22.542562",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/shenzhen.png?v=11",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "广州站",
+            "address": "广州天河区天河南二路19-21号 宏发大厦三层世联空间A01",
+            "lng_lat": "113.3317700000,23.1320300000",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/guangzhou.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "杭州站",
+            "address": "杭州市西湖区黄姑山路29号颐高数码A座J1007",
+            "lng_lat": "120.132183,30.275646",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/hangzhou.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "重庆站",
+            "address": "重庆市渝中区大坪英利国际2号楼1702室",
+            "lng_lat": "106.515714,29.543046",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/chongqing.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "成都站",
+            "address": "成都市锦江区提督街1号雄飞中心2408室",
+            "lng_lat": "104.077171,30.665937",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/chengdu.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "西安站",
+            "address": "西安市莲湖区北大街55号新时代广场06-E",
+            "lng_lat": "108.9477800000,34.2635600000",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/xian.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "南京站",
+            "address": "南京市玄武区珠江路67号华利国际大厦2517室",
+            "lng_lat": "118.7866500000,32.0503300000",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/nanjing.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "长沙站",
+            "address": "长沙市芙蓉区五一大道618号银华大酒店1209室",
+            "lng_lat": "112.988996,28.195354",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/changsha.png?v=11",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "大连站",
+            "address": "辽宁省大连市西岗区黄河路151号 越秀大厦1102室",
+            "lng_lat": "121.617852,38.916103",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/dalian.png?v=11",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "武汉站",
+            "address": "武汉市洪山区珞瑜路78号长江传媒大厦1110室",
+            "lng_lat": "114.358599,30.524582",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/wuhan1.png?v=12",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "天津站",
+            "address": "天津市和平区建设路105号滨江国际大饭店写字楼1617室",
+            "lng_lat": "117.201012,39.116452",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/xian.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "郑州站",
+            "address": "郑州市郑东新区文苑南路北，后贾东街西，安和小区5号楼2单元501室",
+            "lng_lat": "113.8119700000,34.7671200000",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/changsha.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        },
+        {
+            "name": "苏州站",
+            "address": "苏州姑苏区广济南路258号百脑汇科技中心1006室",
+            "lng_lat": "120.6004400000,31.3112000000",
+            "store_image": "https://pic.hiweixiu.com/hiweixiu-app/store-image/xian.png",
+            "opening_time": "服务时间：9:00-19:30",
+            "is_nearest": false
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "Id": "34",
+            "Name": "屏幕",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_pingmu@3x.png?v=20170707",
+            "bigImgeUrl": "https://pic.hiweixiu.com/images/userapi/mould-fault/screen_type.png?v=20170707",
+            "icon": "https://pic.hiweixiu.com/hiweixiu-app/fault_ico/34_icon.png",
+            "title": "更换原装品质屏幕、旧屏回收、180天质保",
+            "desc": "屏幕碎裂、屏幕不亮、触控失灵等",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_mfsm@2x.png?v=20170707"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_sj@2x.png?v=20170707"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_xhfk@2x.png?v=20170707"
+                }
+            ],
+            "jump_type": 0,
+            "jump_url": "",
+            "detail_url": "https://m.hiweixiu.com/userapp/pingmu"
+        },
+        {
+            "Id": "57",
+            "Name": "按键",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_aj@3x.png?v=20170707",
+            "bigImgeUrl": "https://pic.hiweixiu.com/images/userapi/mould-fault/btn_type.png?v=20170707",
+            "icon": "https://pic.hiweixiu.com/hiweixiu-app/fault_ico/57_icon.png",
+            "title": "更换原装按键、售后维修保障",
+            "desc": "开机键、音量键、home键按失灵，键手感变差、塌陷",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_mfsm@2x.png?v=20170707"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_sj@2x.png?v=20170707"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_xhfk@2x.png?v=20170707"
+                }
+            ],
+            "jump_type": 0,
+            "jump_url": "",
+            "detail_url": "https://m.hiweixiu.com/userapp/anjian"
+        },
+        {
+            "Id": "37",
+            "Name": "外壳/边框",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_waike@3x.png?v=20170707",
+            "bigImgeUrl": "https://pic.hiweixiu.com/images/userapi/mould-fault/home_type.png?v=20170707",
+            "icon": "https://pic.hiweixiu.com/hiweixiu-app/fault_ico/37_icon.png",
+            "title": "更换原装配件、售后维修保障",
+            "desc": "外壳边框变形，磨损",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_mfsm@2x.png?v=20170707"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_sj@2x.png?v=20170707"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_xhfk@2x.png?v=20170707"
+                }
+            ],
+            "jump_type": 0,
+            "jump_url": "",
+            "detail_url": "https://m.hiweixiu.com/userapp/biankuangwaike"
+        },
+        {
+            "Id": "63",
+            "Name": "声音",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_shengyin@3x.png?v=20170707",
+            "bigImgeUrl": "https://pic.hiweixiu.com/images/userapi/mould-fault/voice_type.png?v=20170707",
+            "icon": "https://pic.hiweixiu.com/hiweixiu-app/fault_ico/63_icon.png",
+            "title": "更换原装配件、售后维修保障",
+            "desc": "手机外放无声音，声音小，有杂音",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_mfsm@2x.png?v=20170707"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_sj@2x.png?v=20170707"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_xhfk@2x.png?v=20170707"
+                }
+            ],
+            "jump_type": 0,
+            "jump_url": "",
+            "detail_url": "https://m.hiweixiu.com/userapp/shengyin"
+        },
+        {
+            "Id": "68",
+            "Name": "摄像与拍照",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_shexiang@3x.png?v=20170707",
+            "bigImgeUrl": "https://pic.hiweixiu.com/images/userapi/mould-fault/photo_ype.png?v=20170707",
+            "icon": "https://pic.hiweixiu.com/hiweixiu-app/fault_ico/68_icon.png",
+            "title": "更换原装配件、售后维修保障",
+            "desc": "前置/后置摄像头无法打开、无法对焦",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_mfsm@2x.png?v=20170707"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_sj@2x.png?v=20170707"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_xhfk@2x.png?v=20170707"
+                }
+            ],
+            "jump_type": 0,
+            "jump_url": "",
+            "detail_url": "https://m.hiweixiu.com/userapp/shexiangtou"
+        },
+        {
+            "Id": "84",
+            "Name": "电池或不开机",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_dianchi@3x.png?v=20170707",
+            "bigImgeUrl": "https://pic.hiweixiu.com/images/userapi/mould-fault/power_type.png?v=20170707",
+            "icon": "https://pic.hiweixiu.com/hiweixiu-app/fault_ico/84_icon.png",
+            "title": "更换原装品质电池、180天质保",
+            "desc": "续航时间短，主板发热严重等",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_mfsm@2x.png?v=20170707"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_sj@2x.png?v=20170707"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_xhfk@2x.png?v=20170707"
+                }
+            ],
+            "jump_type": 0,
+            "jump_url": "",
+            "detail_url": "https://m.hiweixiu.com/userapp/dianchi"
+        },
+        {
+            "Id": "154",
+            "Name": "其他",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_qita@3x.png?v=20170707",
+            "bigImgeUrl": "https://pic.hiweixiu.com/images/userapi/mould-fault/other_type.png?v=20170707",
+            "icon": "https://pic.hiweixiu.com/hiweixiu-app/fault_ico/154_icon.png",
+            "title": "更换原装品质配件、售后服务保障",
+            "desc": "无wifi、刷机、软件、数据备份、无震动故障等",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_mfsm@2x.png?v=20170707"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_sj@2x.png?v=20170707"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault/bz_xhfk@2x.png?v=20170707"
+                }
+            ],
+            "jump_type": 0,
+            "jump_url": "",
+            "detail_url": "https://m.hiweixiu.com/embedded/show-fault-detail?fid=154"
+        },
+        {
+            "Id": 154,
+            "Name": "内存升级",
+            "imgurl": "https://pic.hiweixiu.com/images/userapi/mould-fault-2-4-2/icon_shengji@3x.png",
+            "bigImgeUrl": "",
+            "jump_type": 1,
+            "jump_url": "https://m.hiweixiu.com/order/special",
+            "detail_url": "https://m.hiweixiu.com/embedded/show-fault-detail?fid=154"
+        }
+    ],
+    "Etag": "deb06bd8242dd0663342ec488253103f"
+}

@@ -1,0 +1,64 @@
+@import '../../../static/less/util.less';
+
+.oneKeyDiv{
+	.padding-top(100);
+	.padding-left(20);
+	.padding-right(20);
+
+	.oneKeyItem{
+		.margin-top(22);
+        .flex(row,center,space-between);
+        width:100%;
+
+        input{
+        	.height(110);
+        	flex:1;
+        	.padding-left(24);
+            .font-size(30);
+            background:#fff;
+            box-sizing:border-box;
+            border: none;
+        }
+        textarea{
+        	width:100%;
+            .height(200);
+            background:#fff;
+            box-sizing:border-box;
+            .padding(24,20);
+            .font-size(30);
+            border: none;
+            resize: none;
+        }
+        .getCode{
+        	.width(240);
+        	.margin-left(16);
+        	.font-size(32);
+        	.height(110);
+            background:#009cff;
+            color: #fff;
+            .flex();
+        }
+        .select{
+        	.width(345);
+            .height(110);
+            .padding-right(12);
+            .padding-left(24);
+            .line-height(110);
+            box-sizing:border-box;
+            .font-size(32);
+            background: #fff;
+            border: none;
+        }
+	}
+
+	.oneKeyBtn{
+		.fixed-bottom();
+		.height(90);
+        .font-size(36);
+        .margin(20);
+        .flex();
+        color:#fff;
+        background:#ff5000;
+        border-radius:4px;
+	}
+}

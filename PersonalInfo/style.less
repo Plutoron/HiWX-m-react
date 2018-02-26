@@ -1,0 +1,77 @@
+@import '../../../static/less/util.less';
+
+.personalInfoDiv{
+    .padding-top(100);
+
+   .infoDiv{
+        color: #333;
+
+        .infoItem{
+            .flex();
+            .height(100);
+            background: #fff;
+            .padding(0,30);
+            .font-size(32);
+
+            .title{
+                .width(100);
+            } 
+
+            div{
+                flex: 1;
+                .flex(row,center,flex-start);
+                text-align: left;
+
+                input{
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                }
+            }
+        }
+
+        .am-list-item {
+                .height(98);
+                 .padding(0,30);
+
+                .am-list-line {
+                    padding: 0;
+
+                    .am-list-content{
+                        .width(100);
+                        flex: unset;
+                        .font-size(32);
+                    }
+                    .am-list-extra{
+                        flex: 1;
+                        text-align: left;
+                        color: #333;
+                        .font-size(32);
+                    }
+                } 
+            } 
+
+        .addBorder{
+            .border-1px-top(#e8e8e8);
+            .border-1px-bottom(#e8e8e8);
+            box-sizing: border-box;
+        }
+   }
+
+   .editBtn{
+        width:92%;
+        .height(90);
+        margin: 0 auto;
+        .margin-top(50);
+        border-radius:5px;
+        background-color:#ff5000;
+        color:#fff;
+        text-align:center;
+        .line-height(90);
+        .font-size(32);
+   }
+   .loginOut{
+        background: #ccc;
+   }
+
+}

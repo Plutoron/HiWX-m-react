@@ -1,0 +1,182 @@
+{
+    "code": "200",
+    "data": {
+        "repair": [
+            {
+                "Id": "81",
+                "RepairType": "更换开关键（旧配收回）",
+                "faultType": "电源开关键",
+                "Price": "150.00",
+                "RepairTime": "40",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0,
+                "remark": "此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+            },
+            {
+                "Id": "82",
+                "RepairType": "更换home键组件（旧配收回）",
+                "faultType": "HOME键（主屏幕键）",
+                "Price": "90.00",
+                "RepairTime": "30",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0,
+                "remark": "此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+            },
+            {
+                "Id": "83",
+                "RepairType": "更换音量键（旧配收回）",
+                "faultType": "音量键",
+                "Price": "110.00",
+                "RepairTime": "40",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0,
+                "remark": "此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+            },
+            {
+                "Id": "84",
+                "RepairType": "更换音量键（旧配收回）",
+                "faultType": "静音快捷键",
+                "Price": "110.00",
+                "RepairTime": "40",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0,
+                "remark": "此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+            }
+        ],
+        "honai_repair": [
+            {
+                "Id": "81",
+                "RepairType": "更换开关键（旧配收回）",
+                "faultType": "电源开关键",
+                "Price": "0.00",
+                "RepairTime": "40",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0
+            },
+            {
+                "Id": "82",
+                "RepairType": "更换home键组件（旧配收回）",
+                "faultType": "HOME键（主屏幕键）",
+                "Price": "0.00",
+                "RepairTime": "30",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0
+            },
+            {
+                "Id": "83",
+                "RepairType": "更换音量键（旧配收回）",
+                "faultType": "音量键",
+                "Price": "0.00",
+                "RepairTime": "40",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0
+            },
+            {
+                "Id": "84",
+                "RepairType": "更换音量键（旧配收回）",
+                "faultType": "静音快捷键",
+                "Price": "0.00",
+                "RepairTime": "40",
+                "brand_home_visit_fee": 0,
+                "brand_manual_fee": 0
+            }
+        ],
+        "committed": {
+            "title": "Hi维修承诺",
+            "characteristic": [
+                {
+                    "name": "免费上门",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault-3x/bz_mfsm@3x.png?v=1"
+                },
+                {
+                    "name": "20分钟快修",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault-3x/bz_sj@3x.png?v=1"
+                },
+                {
+                    "name": "修完后付款",
+                    "img": "https://pic.hiweixiu.com/images/userapi/mould-fault-3x/bz_xhfk@3x.png?v=1"
+                }
+            ]
+        },
+        "applies": {
+            "title": "维修方案适用情况说明",
+            "list": [
+                "电源开关键：开关机或锁屏时不能正常的进行操作，按键失灵等",
+                "HOME键（主屏幕键）：设备主屏幕键失灵，对设备进行操作时不能正常返回或不能退出程序",
+                "音量键：对设备进行加减声音操作时没有反应",
+                "静音快捷键：设备调节静音/响铃模式没有反应",
+                "手机的音量键或开机键不灵、没反应的"
+            ]
+        },
+        "process": {
+            "title": "维修过程及服务说明",
+            "list": [
+                "具体维修时间与工程师预约为准；本订单为预计金额，实际金额以工程师检测故障为准",
+                "工程师在维修时采取全程录像，保障客户的隐私安全；维修完成后，Hi维修针对所维修的配件提供180天质保服务",
+                "损坏零件需被工程师收回，如需自留另补差价；如上门通过技术调试（未涉及零件）即完成维修，则仅收取90元修复费"
+            ]
+        },
+        "explain": [
+            {
+                "title": "电源开关键",
+                "list": [
+                    "维修方案 : 更换开关键（旧配收回）",
+                    "维修时长 : 40分",
+                    "维修说明 : 此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+                ]
+            },
+            {
+                "title": "HOME键（主屏幕键）",
+                "list": [
+                    "维修方案 : 更换home键组件（旧配收回）",
+                    "维修时长 : 30分",
+                    "维修说明 : 此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+                ]
+            },
+            {
+                "title": "音量键",
+                "list": [
+                    "维修方案 : 更换音量键（旧配收回）",
+                    "维修时长 : 40分",
+                    "维修说明 : 此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+                ]
+            },
+            {
+                "title": "静音快捷键",
+                "list": [
+                    "维修方案 : 更换音量键（旧配收回）",
+                    "维修时长 : 40分",
+                    "维修说明 : 此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+                ]
+            },
+            {
+                "title": "静音快捷键",
+                "list": [
+                    "维修方案 : 更换音量键（旧配收回）",
+                    "维修时长 : 40分",
+                    "维修说明 : 此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+                ]
+            },
+            {
+                "title": "静音快捷键",
+                "list": [
+                    "维修方案 : 更换音量键（旧配收回）",
+                    "维修时长 : 40分",
+                    "维修说明 : 此服务产品使用非原装配件,使用非原装配件将不再享受厂家提供的保修服务."
+                ]
+            }
+        ],
+        "mark_info": {
+            "mark_info": "开机键、音量键、home键按失灵，键手感变差、塌陷",
+            "img_url": "https://pic.hiweixiu.com/hiweixiu-app/weixiudetail/iphone_key.png?v=20170831"
+        },
+        "discount_info": [
+            "1、具体维修时间以工程师预约为准；",
+            "2、损坏零件工程师需要收回，如需自留需另补差价；",
+            "3、该维修价格为预计金额，实际金额以工程师检测故障为准；",
+            "4、如上门通过技术调试（未涉及零件）即完成维修，则仅收取90元修复费；"
+        ],
+        "detail_url": "https://m.hiweixiu.com/embedded/show-fault-detail?fid=57"
+    },
+    "mes": "success"
+}

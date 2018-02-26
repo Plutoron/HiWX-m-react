@@ -1,0 +1,57 @@
+@import '../../../static/less/util.less';
+
+.addressDiv{
+    .padding-top(100);
+
+    .addressList{ 
+
+        .addressListItem{
+            background: #fff;
+            .flex();
+            .padding(30,0);
+
+            &:not(:last-child){
+                .border-1px-bottom(#e8e8e8);
+            }
+
+            .leftDiv{
+                .width(180);
+                .height(150);
+                .padding(0,20);
+
+                img{
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .rightDiv{
+                flex: 1;
+                .flex(column,flex-start);
+
+                .title{
+                    .font-size(32);
+                    font-weight: bold;
+                    color: #000;
+                }
+
+                .openTime{
+                    color: #999;
+                    .margin(10,0);
+
+                    &:before{
+                        font-family: 'iconfont';
+                        content: '\e67f';
+                        .margin-right(10); 
+                    }
+                }
+
+                .addr{
+                     color: #666;
+                     .padding-right(30);
+                }
+            }
+        }
+    }
+}

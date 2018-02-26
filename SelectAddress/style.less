@@ -1,0 +1,71 @@
+@import '../../../static/less/util.less';
+
+.selectAddressDiv{
+    .selectAddressContainer{
+        .padding(100,30);
+        .padding-bottom(0);
+        background: #fff;
+
+        .line{
+            &.borderDown{
+                .border-1px-bottom(#e8e8e8);
+            }
+
+            .flex();
+            .font-size(32); 
+
+            .title{
+                .width(120);
+            }
+            input{
+                flex: 1;
+                border: none;
+                .padding(30,0);
+
+                &.borderDown{
+                    .border-1px-bottom(#e8e8e8);
+                }
+            }
+            .genderSelect{
+                flex:1;
+                .flex(row,center,flex-start);
+                .height(100); 
+                box-sizing: border-box;
+
+                .selectItem{
+                    .margin-right(50);
+                }
+
+                img{
+                    .height(40);
+                    .width(40);
+                    .margin-right(20);
+                }
+            }
+            .addrDiv{
+                flex: 1;
+                .height(100);
+                box-sizing: border-box;
+                .flex(row,center,space-between);
+                color: #999;
+
+                &:after{
+                    font-family: 'iconfont';
+                    content: '\e6e4';
+                }
+            }
+        }  
+    } 
+    .confirmBtn{
+            background: #ff5000;
+            .height(100);
+            .line-height(100);
+            color: #fff;
+            text-align: center;
+            width: 95%;
+            border-radius: 10px;
+            margin: 0 auto;
+            .margin-top(60);
+            .font-size(32);
+        }
+}
